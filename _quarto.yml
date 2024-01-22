@@ -24,19 +24,27 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
-      - text: "Follow-up Instruments"
+      - text: "Recruitment and Scheduling"
+        href: sections/recruitment_scheduling.qmd 
+      - text: "Sociodemographic Information"
         menu: 
-          - text: "Recruitment and Scheduling"
-          - href: sections/recruitment_scheduling.qmd
-          - text: "Sociodemographic Information"
-            href: sections/sociodemographic_tables.qmd
-          - text: "General Health"
-          - text: "Home Inspection"
-          - text: "EM Self-Report"
-          - text: "APS Investigations"
-          - text: "Interviewer Observations"
-          - text: "Lead Panel Assessment"
-            href: sections/lead_panel_assessment_tables.qmd
+          - text: "Sociodemographic Information Original"
+          - href: sections/sociodemographic_tables.qmd
+          - text: "Sociodemographic Information Flextable"
+          - href: sections/sociodemographic_tables_flextable.qmd
+      # - text: "Follow-up Instruments"
+      #   menu: 
+      #     - text: "Recruitment and Scheduling"
+      #     - href: sections/recruitment_scheduling.qmd
+      #     - text: "Sociodemographic Information"
+      #       href: sections/sociodemographic_tables.qmd
+      #     - text: "General Health"
+      #     - text: "Home Inspection"
+      #     - text: "EM Self-Report"
+      #     - text: "APS Investigations"
+      #     - text: "Interviewer Observations"
+      #     - text: "Lead Panel Assessment"
+      #       href: sections/lead_panel_assessment_tables.qmd
 
 # Bibliography and citation options
 bibliography: references.bib
